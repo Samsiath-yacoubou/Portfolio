@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Entete -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h2>YACOUBOU Samsiath</h2>
+            </div>
+
+            <ul class="menu">
+                <li><a href="#acceuil">Acceuil</a></li>
+                <li><a href="#apropos">A propos</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#sofh">Comptences</a></li>
+                <li><a href="#contact">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Acceuil -->
+        <section id="accueil">
+            <div class="accueil-content">
+                <p>Je suis Samsiath,Développeur en devenir <br>passionné par le web et le design !</p>
+                <a href="#projets" class="btn">Voir mes projets</a>
+            </div>
+
+            <div class="accueil-image">
+                <img src="image.jpg" alt="Illustration créative de Samsiath">
+            </div>
+        </section>
+        <!-- Apropos -->
+        <section id="apropos">
+            <h3>À propos</h3>
+            <div class="content">
+                <div class="apropos-content">
+                    <p>Je m'appelle Samsiath, passionné par <br>
+                        la création de sites web modernes et interactifs.
+                    </p>
+                    <p>
+                        Je suis actuellement étudiante en développement web, <br>
+                        et je cherche à améliorer mes compétences en JavaScript, HTML et CSS.
+                    </p>
+                    <p>
+                        J'adore transformer mes idées en projets concrets <br>
+                        et expérimenter avec les nouvelles technologies.
+                    </p>
+                    <button class="btn">Télécharger mon CV</button>
+                </div>
+
+                <div class="apropos-images">
+                    <img src="SAM-CreativeArt_4.jpg" alt="Illustration de Samsiath">
+                </div>
+            </div>
+        </section>
+
+        <!-- Sections -->
+
+        <section id="projets">
+            <h3> Mes Projets</h3>
+            <div id="projets-content">
+                <div class="card1">
+                    <p>Un mini jeu interactifs en Javascripts
+                        qui utlise des evenements DOM
+                    </p>
+
+                    <p>#html,#css,#js</p>
+                    <a href="">Voir</a>
+                </div>
+
+                <div class="card2">
+                    <p>Un mini jeu interactifs en Javascripts
+                        qui utlise des evenements DOM
+                    </p>
+
+                    <p>#html,#css,#js</p>
+                    <a href="">Voir</a>
+                </div>
+
+                <div class="card3">
+                    <p>Un mini jeu interactifs en Javascripts
+                        qui utlise des evenements DOM
+                    </p>
+
+                    <p>#html,#css,#js</p>
+                    <a href="">Voir</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="sofh">
+            <h1>Mes Compétences</h1>
+            <div class="sofh-content">
+                <div id="soft-skills">
+                    <h1>Soft Skills</h1>
+                    <div class="soft-skills-content">
+                        <div class="skill">
+                            <h2>Gestion de projet</h2>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 80%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <h2>Résolution de problème</h2>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 90%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <h2>Adaptabilité</h2>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 85%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div id="hard-skills">
+                    <h1>Hard Skills</h1>
+                    <div class="hard-skills-content">
+                        <div class="skill">
+                            <h2>HTML</h2>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 80%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <h2>CSS</h2>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 90%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <h2>JavaScript</h2>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 85%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <h2>VS Code</h2>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 85%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- Section Contact -->
+    <section id="contact">
+        <h3>Vous avez un projet en tête ? <br>N’hésitez pas à <span>me contacter</span></h3>
+        
+        <form>
+            <input type="text" id="nom" placeholder="Nom" required>
+            <span id="nomError" class="error"></span>
+            <input type="prenom" id="prenom" placeholder="prenom" required>
+            <span id="prenomError" class="error"></span>
+            <textarea id="message" placeholder="Votre message" required></textarea>
+            <button type="submit">Envoyer</button>
+            <span id="messageError" class="error"></span>
+        </form>
+    </section>
+
+    </main>
+    <!-- Pieds de pages -->
+    <footer>
+        <p>Designed by Samsiath with HTML,CSS et JS</p>
+        <p>Tout droits reservés-2025</p>
+    </footer>
+
+    <script src="scritps.js"></script>
+
+</body>
+
+</html>

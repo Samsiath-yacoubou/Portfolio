@@ -1,0 +1,352 @@
+body {
+    font-family: 'Arial', sans-serif; 
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333; 
+    background-color: #f4f4f4; 
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #0f0808;
+    color: white;
+    height: 80px;
+}
+
+.logo h2 {
+    margin: 0;
+    font-size: 1.5em;
+    justify-content: flex-start;
+    padding-left: 35px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding-right: 50px;
+    gap: 25px;
+    
+}
+
+.menu li {
+    margin-left: 20px;
+    
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+#accueil{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 20px;
+    background-color: white;
+}
+.accueil-content{
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial,sans-serif;
+    padding-left: 15px;
+}
+.accueil-content a{
+    display: inline-block;
+    font-size: small;
+    background-color: #333; /* Couleur de fond du bouton */
+    color: rgb(241, 231, 231); /* Couleur du texte du bouton */
+    text-decoration: none; /* Supprime le soulignement */
+    border: none; /* Supprime la bordure par défaut */
+    border-radius: 5px; /* Coins arrondis */
+    cursor: pointer; /* Curseur en forme de main */
+    transition: background-color 0.3s ease; /* Animation au survol */
+}
+
+.accueil-image img{
+    width: 400px;
+    height: 400px;
+}
+#apropos {
+    padding: 60px 20px; /* Espace intérieur */
+    background-color: #f9f9f9; /* Couleur de fond */
+}
+
+#apropos h2 {
+    font-size: 2.5em; /* Taille du titre */
+    text-align: center; /* Centrer le titre */
+    margin-bottom: 40px; /* Espace sous le titre */
+    color: #333; /* Couleur du titre */
+}
+
+.content {
+    display: flex; /* Aligner le texte et l'image côte à côte */
+    align-items: center; /* Alignement vertical au centre */
+    max-width: 1200px; /* Largeur maximale du contenu */
+    margin: 0 auto; /* Centrer le contenu horizontalement */
+    gap: 40px; /* Espace entre le texte et l'image */
+}
+
+#apropos-content {
+    flex: 1; /* Le texte prend l'espace disponible */
+}
+
+#apropos-content p {
+    font-size: 1.1em; /* Taille du texte */
+    line-height: 1.6; /* Espacement des lignes */
+    color: #555; /* Couleur du texte */
+    margin-bottom: 20px; /* Espace entre les paragraphes */
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px; /* Espace intérieur du bouton */
+    background-color: #333; /* Couleur de fond du bouton */
+    color: white; /* Couleur du texte du bouton */
+    text-decoration: none; /* Supprime le soulignement */
+    border: none; /* Supprime la bordure par défaut */
+    border-radius: 5px; /* Coins arrondis */
+    font-size: 1em;
+    cursor: pointer; /* Curseur en forme de main */
+    transition: background-color 0.3s ease; /* Animation au survol */
+}
+
+.btn:hover {
+    background-color: #555; /* Changement de couleur au survol */
+}
+
+.apropos-images {
+    flex: 1; /* L'image prend l'espace disponible */
+    text-align: center; /* Centre l'image horizontalement */
+}
+
+#apropos {
+    padding: 60px 20px; /* Espace intérieur */
+    background-color: #f9f9f9; /* Couleur de fond */
+}
+
+#apropos h3 {
+    font-size: 1.5em; /* Taille du titre */
+    text-align: center; /* Centrer le titre */
+    margin-bottom: 20px; /* Espace sous le titre */
+    color: #333; /* Couleur du titre */
+}
+
+.content {
+    display: flex; /* Aligner le texte et l'image côte à côte */
+    align-items: center; /* Alignement vertical au centre */
+    max-width: 1200px; /* Largeur maximale du contenu */
+    
+    gap: 40px; /* Espace entre le texte et l'image */
+}
+
+.apropos-content {
+    flex: 1; /* Le texte prend l'espace disponible */
+    padding-left: 40px;
+}
+
+.apropos-content p {
+    font-size: 1.1em; /* Taille du texte */
+    line-height: 1.6; /* Espacement des lignes */
+    color: #070606; /* Couleur du texte */
+    margin-bottom: 20px; /* Espace entre les paragraphes */
+   
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px; /* Espace intérieur du bouton */
+    background-color: #333; /* Couleur de fond du bouton */
+    color: white; /* Couleur du texte du bouton */
+    text-decoration: none; /* Supprime le soulignement */
+    border: none; /* Supprime la bordure par défaut */
+    border-radius: 5px; /* Coins arrondis */
+    font-size: 1em;
+    cursor: pointer; /* Curseur en forme de main */
+    transition: background-color 0.3s ease; /* Animation au survol */
+}
+
+.btn:hover {
+    background-color: #555; /* Changement de couleur au survol */
+}
+
+.apropos-images {
+    flex: 1; /* L'image prend l'espace disponible */
+    text-align: center; /* Centre l'image horizontalement */
+}
+
+.apropos-images img {
+    width: 250px; /* Taille de l'image */
+    height: 250px; /* Taille de l'image */
+    border-radius: 50%; /* Rend l'image ronde */
+    object-fit: cover; /* Ajuste l'image pour remplir le cercle */
+    border: 4px solid #333; /* Bordure autour de l'image (optionnel) */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Ombre légère (optionnel) */
+}
+#projets h3{
+    text-align: center;
+    font-size: 1.5em;
+}
+#projets-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin: 50px;
+    margin-bottom: 200px;
+}
+.card1{
+    background-color: black;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    padding: 25px;
+}
+.card2{
+    background-color: black;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    padding: 25px;
+}
+.card3{
+    background-color: black;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    padding: 25px;
+}
+.card1 a{
+    
+    text-decoration: none;
+    background-color: rgb(230, 186, 248);
+    border-radius:10px ;
+    padding: 10px;
+}
+.card2 a{
+    text-decoration: none;
+    background-color: rgb(230, 186, 248);
+    border-radius:10px ;
+    padding: 10px;
+}
+.card3 a{
+    text-decoration: none;
+    background-color: rgb(230, 186, 248);
+    border-radius:10px ;
+    padding: 10px;
+}
+
+.sofh {
+    padding: 60px 20px; /* Espace intérieur */
+    background-color: #f9f9f9; /* Couleur de fond */
+}
+
+#sofh h1 {
+    margin-bottom: 20px; /* Espace sous le titre */
+    text-align: center; /* Centrer le titre */
+    font-family: Arial, sans-serif;
+    font-size: 2em; /* Taille du titre principal */
+    color: #0a0a0a; /* Couleur du titre */
+}
+
+.sofh-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px; /* Espace entre les colonnes */
+    max-width: 1200px; /* Largeur maximale du contenu */
+    margin: 0 auto; /* Centrer le contenu horizontalement */
+}
+
+#soft-skills, #hard-skills {
+    padding: 20px; /* Espace intérieur */
+    background-color: #dbb6e6; /* Couleur de fond */
+    border-radius: 10px; /* Coins arrondis */
+    text-align: left; /* Alignement du texte à gauche */
+    flex: 1; /* Les deux colonnes prennent l'espace disponible */
+}
+
+#soft-skills h1, #hard-skills h1 {
+    font-size: 1.5em; /* Taille du titre */
+    color: #0d0909; /* Couleur du titre */
+    text-align: center; /* Centrer le titre */
+    margin-bottom: 20px; /* Espace sous le titre */
+}
+
+.skill h2 {
+    font-size: 1.2em; /* Taille des sous-titres */
+    margin-bottom: 10px; /* Espace sous les sous-titres */
+    color: #0f0b0b; /* Couleur des sous-titres */
+}
+
+.skill {
+    margin-bottom: 20px; /* Espace entre les compétences */
+}
+
+.progress-bar {
+    width: 100%; /* Largeur de la barre de progression */
+    height: 10px; /* Hauteur de la barre de progression */
+    background-color: #e0e0e0; /* Couleur de fond de la barre */
+    border-radius: 5px; /* Coins arrondis */
+    overflow: hidden; /* Cache le débordement */
+}
+
+.progress {
+    height: 100%; /* Hauteur de la barre de progression */
+    background-color: #333; /* Couleur de la barre de progression */
+    border-radius: 5px; /* Coins arrondis */
+    transition: width 0.5s ease; /* Animation de la barre */
+}
+
+footer {
+    background-color: #f9f8f8;
+    color: black;
+    display: flex;
+    justify-content:space-between;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+footer p {
+    margin: 10px;
+    margin-left: 30px;
+    margin-right: 40px;
+}
+#contact h3{
+    text-align: center;
+}
+#contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact input {
+    width: 80%;
+    max-width: 400px;
+    padding: 10px;
+    margin: 10px 0;
+}
+#contact textarea{
+    width: 80%;
+    max-width: 400px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+#contact button {
+    background: #f094f5;
+    color: rgb(7, 1, 1);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
